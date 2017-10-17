@@ -43,4 +43,4 @@ function printSeats(seats) {
 	}
 }
 
-managePerson(['a','b','c','d','e','f','g','h','i','j'], 4)
+managePerson(['a','b','c','d','e','f','g','h','i','j'], 3)
