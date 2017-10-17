@@ -26,8 +26,8 @@ function managePerson(arr, rowSeats) {
 		// console.log('~~~~~~~~~~~~~~',seats[row]);
 		// console.log('-----------',arr[i])
 		seats[row].push(arr[i])
-		// console.log('===============',row);
-		if(row < 2) {
+		// console.log('===============',seats.length);
+		if(row < seats.length-1) {
 			row++
 		} else {
 			row = 0
@@ -43,4 +43,4 @@ function printSeats(seats) {
 	}
 }
 
-managePerson(['a','b','c','d','e','f','g','h','i','j'], 3)
+managePerson(['a','b','c','d','e','f','g','h','i','j'], 4)
